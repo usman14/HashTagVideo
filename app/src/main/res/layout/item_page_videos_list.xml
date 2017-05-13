@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorcool"
+    android:id="@+id/relat"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_view_top_page_videos_list"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_top_page_videos_list"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintRight_toLeftOf="@+id/img_btn_top_page_videos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:minHeight="20dp"
+        android:maxLines="3"
+        android:layout_marginStart="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/img_view_top_page_videos_list"
+        android:layout_marginRight="8dp" />
+
+
+    <at.markushi.ui.CircleButton
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        app:layout_constraintEnd_toEndOf="@id/img_view_top_page_videos_list"
+        app:layout_constraintTop_toBottomOf="@id/img_view_top_page_videos_list"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/img_btn_top_page_videos"
+        android:src="@drawable/options"
+        app:cb_color="#99CC00"
+        app:cb_pressedRingWidth="8dip" />
+
+    <ImageView
+        android:id="@+id/img_view_left_page_videos"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_top_page_videos_list"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/img_view_right_page_videos"
+        android:scaleType="fitXY"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp" />
+    <TextView
+        android:id="@+id/tv_left_page_videos"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:maxLines="2"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/img_view_left_page_videos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/img_btn_left_page_videos"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <at.markushi.ui.CircleButton
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:id="@+id/img_btn_left_page_videos"
+        app:layout_constraintTop_toBottomOf="@id/img_view_left_page_videos"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintRight_toRightOf="@+id/img_view_left_page_videos"
+        android:src="@drawable/options"
+        app:cb_color="#99CC00"
+        app:cb_pressedRingWidth="8dip" />
+
+    <ImageView
+        android:id="@+id/img_view_right_page_videos"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_top_page_videos_list"
+        app:layout_constraintLeft_toRightOf="@+id/img_view_left_page_videos"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintHorizontal_bias="0.4" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@id/img_view_right_page_videos"
+        android:layout_marginRight="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/img_view_right_page_videos"
+        app:layout_constraintLeft_toRightOf="@+id/tv_left_page_videos"
+        app:layout_constraintRight_toLeftOf="@+id/img_btn_right_page_videos"
+        android:layout_marginLeft="5dp"
+        android:maxLines="2"
+        android:id="@+id/tv_right_page_videos"/>
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/img_btn_right_page_videos"
+        android:layout_marginTop="2dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_view_left_page_videos"
+        android:background="@drawable/options"
+        android:layout_marginRight="4dp"
+
+        app:cb_color="#99CC00"
+        app:cb_pressedRingWidth="8dip" />
+
+</android.support.constraint.ConstraintLayout>

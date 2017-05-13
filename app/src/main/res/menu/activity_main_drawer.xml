@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/HashTags"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/hastags" />
+        <item
+            android:id="@+id/Playlist"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/playlist" />
+        <item
+            android:id="@+id/Favourites"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/History"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/history" />
+    </group>
+
+
+</menu>

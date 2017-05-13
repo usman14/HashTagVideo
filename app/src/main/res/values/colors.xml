@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800517</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#E1F5FE</color>
+    ‎<color name="colorcool">#4682b4</color>
+    ‎<color name="black">#323232</color>
+    ‎<color name="green">#00FF00</color>
+    ‎<color name="yellow">#4682b4</color>
+    ‎<color name="searchpage">#2C3539</color>
+    ‎<color name="textbackground">#837E7C</color>
+    ‎<color name="textcolor">#E5E4E2</color>
+
+
+
+
+</resources>
