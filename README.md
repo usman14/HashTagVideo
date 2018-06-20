@@ -10,7 +10,7 @@
  <img src="app/src/main/res/drawable/five.png" width="800" height="400" >
 
 
-<img src="app/src/main/res/drawable/six.png" width="800" height="600">
+<img src="app/src/main/res/drawable/six.png" width="800" height="400">
 
 
 # Motive
