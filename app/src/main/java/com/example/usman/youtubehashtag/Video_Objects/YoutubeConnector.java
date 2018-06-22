@@ -3,6 +3,7 @@ package com.example.usman.youtubehashtag.Video_Objects;
 import android.content.Context;
 import android.util.Log;
 
+import com.example.usman.youtubehashtag.BuildConfig;
 import com.example.usman.youtubehashtag.R;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestInitializer;
@@ -34,7 +35,7 @@ public class YoutubeConnector {
 
         try {
             query = youtube.search().list("id,snippet");
-            query.setKey(KEY);
+            query.setKey(BuildConfig.API_KEY);
             query.setType("video");
             query.setMaxResults((long)50);
             query.setFields("items(id/videoId,snippet/title,snippet/description,snippet/thumbnails/default/url)");
