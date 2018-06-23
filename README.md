@@ -1,6 +1,6 @@
 # HashTagVideo
 
-### Never Get Bored Again
+### Videos and Videos
 
 
   - Create your own favourite HashTags list and enjoy results from millions of youtube videos.
