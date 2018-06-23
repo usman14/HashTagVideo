@@ -1,4 +1,4 @@
-package com.hashtags.usman.youtubehashtag;
+package com.examples.usman.youtubeexample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -15,12 +15,12 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class hashtagsInstrumentedTest {
+public class examplesInstrumentedTest {
     @Test
     public void useAppContext() throws Exception {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hashtags.usman.youtubehashtag", appContext.getPackageName());
+        assertEquals("com.examples.usman.youtubeexample", appContext.getPackageName());
     }
 }

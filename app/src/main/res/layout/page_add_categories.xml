@@ -50,14 +50,14 @@
         android:inputType="textPersonName"
         android:layout_marginTop="20dp"
         android:layout_marginRight="15dp"
-        app:layout_constraintRight_toLeftOf="@+id/img_btn_add_hashtag_page_add_categories" />
+        app:layout_constraintRight_toLeftOf="@+id/img_btn_add_example_page_add_categories" />
 
 
     <at.markushi.ui.CircleButton
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/plus"
-        android:id="@+id/img_btn_add_hashtag_page_add_categories"
+        android:id="@+id/img_btn_add_example_page_add_categories"
         app:cb_color="#99CC00"
         app:layout_constraintTop_toBottomOf="@+id/staggeredTextView"
         android:layout_marginTop="15dp"
