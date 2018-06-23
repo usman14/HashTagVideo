@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">YouTubeHashTag</string>
+    <string name="app_name">YouTubeexample</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -13,8 +13,8 @@
     <string name="delete_history">Are you sure you want to delete history?</string>
     <string name="delete_history_title">Delete History</string>
     <string name="title_activity_maps">Map</string>
-    <string name="popular">Popular HashTags</string>
-    <string name="hastags">Add HashTags</string>
+    <string name="popular">Popular examples</string>
+    <string name="hastags">Add examples</string>
     <string name="playlist">Playlist</string>
     <string name="history">History</string>
     <string name="favourite">Add video to Favourite List</string>

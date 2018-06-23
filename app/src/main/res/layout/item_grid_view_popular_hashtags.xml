@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/page_add_categories_grid_view_common_tv_hashtag"
+        android:id="@+id/page_add_categories_grid_view_common_tv_example"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="5dp"

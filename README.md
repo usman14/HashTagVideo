@@ -1,9 +1,9 @@
-# HashTagVideo
+# exampleVideo
 
 ### Videos and Videos
 
 
-  - Create your own favourite HashTags list and enjoy results from millions of youtube videos.
+  - Create your own favourite examples list and enjoy results from millions of youtube videos.
   - Enjoy a collection of new videos every time based on your favourite topics and words.
   
   
