@@ -8,7 +8,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.example.usman.youtubehashtag"
+        applicationId "com.hashtags.usman.youtubehashtag"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1

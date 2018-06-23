@@ -17,6 +17,6 @@
     <string name="hastags">Add HashTags</string>
     <string name="playlist">Playlist</string>
     <string name="history">History</string>
-    <string name="favourite">Favourite</string>
+    <string name="favourite">Add video to Favourite List</string>
     <string name="share">Share</string>
 </resources>
