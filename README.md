@@ -6,11 +6,11 @@
   - Create your own favourite hashtags list and enjoy results from millions of Youtube videos.
   - Enjoy a collection of new videos every time based on your favourite topics.
   
-<img src="app/src/main/res/drawable-v21/one.png" width="800" height="400">
+<img src="app/src/main/res/drawable-v21/one.png" width="600" height="300">
 
 
 
-<img src="app/src/main/res/drawable-v21/two.png" width="800" height="400">
+<img src="app/src/main/res/drawable-v21/two.png" width="600" height="300">
 
 
 # Motive
