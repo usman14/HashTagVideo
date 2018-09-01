@@ -3,8 +3,8 @@
 ### Videos and Videos
 
 
-  - Create your own favourite examples list and enjoy results from millions of youtube videos.
-  - Enjoy a collection of new videos every time based on your favourite topics and words
+  - Create your own favourite hashtags list and enjoy results from millions of Youtube videos.
+  - Enjoy a collection of new videos every time based on your favourite topics.
   
   
 <img src="app/src/main/res/drawable-v21/one.png" width="800" height="400">
